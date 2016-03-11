@@ -83,7 +83,7 @@ class ScenarioProcess extends Process
     /**
      * {@inheritdoc}
      */
-    public function start(callable $callback = null)
+    public function start($callback = null)
     {
         $this->updateCommandLine();
         parent::start($callback);
